@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content='yes' name='apple-mobile-web-app-capable'/><!--позволяет странице работать в полноэкранном режиме у мобильных устройств Apple-->
+    <title> FTSteam </title>
+    <link rel="icon" type="image/png" href="../ikonka.png"><!--Маленькая иконка-->
+    <link rel="stylesheet" href="favorites.css">
+  </head>
+  <body>
+    <header >
+      <div class="bigmenu">
+        <figure id="avatarvshapke"><!--Аватарка-->
+          <a rel="external">
+            <img class="icon_page" src="../big_ikonka.png" width="48" height="48">
+          </a>
+        </figure>
+        <nav class="pages_header">
+          <div class="icon_in_header">
+            <img class="photo_soc_seti" src="../musicicon_in_header.png" height="50%">
+          </div>
+          <div class="icon_in_header">
+            <img class="photo_soc_seti" src="../heart.png" height="50%">
+            <div class="favourites-number">
+                4
+            </div>
+          </div>
+          <div class="icon_in_header">
+            <img class="photo_soc_seti" src="../shop_in_header.png" height="50%">
+          </div>
+          <div class="icon_in_header">
+            <img class="photo_soc_seti" src="../login.png" height="50%">
+          </div>
+        </nav>
+      </div>
+      <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+        <ul class="menu__box">
+          <li><a class="menu__item" href="home_page.html">Главная</a></li>
+          <li><a class="menu__item" href="media.html">Медиа</a></li>
+          <li><a class="menu__item" href="favorites.html">Избранное</a></li>
+          <li><a class="menu__item" href="products.html">Товары</a></li>
+          <li><a class="menu__item" href="login_form.html">Войти</a></li>
+        </ul>
+      </div>
+
+    </header>
+    <main>
+    <h3>Избранное</h3>
+        <div class="all_music" id="list"> 
+            <div class="common_block">
+                <p>FTS - ITS JUST LIFE</p>
+                <div class="audio_like">
+                  <audio class="music"  controls>
+                      <source src="audio/FTS-ITS JUST LIFE.mp3" controls="controls">
+                  </audio>
+                  <button type="button" class="add-to-favorites block_like"><img class="like" src="../heart.png" height="50%"></button>
+                </div>
+              </div>
+              <div class="common_block">
+                <p>AGIRRA - ЛП</p>
+                <div class="audio_like">
+                  <audio class="music"  controls>
+                      <source src="audio/AGIRRA-ЛП.mp3" controls="controls">
+                  </audio>
+                  <button type="button" class="add-to-favorites block_like"><img class="like" src="../heart.png" height="50%"></button>
+                </div>
+              </div>
+              <div class="common_block">
+                <p>ILDARAL-ПРЫЖОК</p>
+                <div class="audio_like">
+                  <audio class="music"  controls>
+                      <source src="audio/ILDARAL-ПРЫЖОК.mp3" controls="controls">
+                  </audio>
+                  <button type="button" class="add-to-favorites block_like"><img class="like" src="../heart.png" height="50%"></button>
+                </div>
+            </div>
+            <div class="common_block">
+              <p>GRUZ_200 - RELAX</p>
+              <div class="audio_like">
+                <audio class="music"  controls>
+                    <source src="audio/GRUZ_200 - RELAX.mp3" controls="controls">
+                </audio>
+                <button type="button" class="add-to-favorites block_like"><img class="like" src="heart.png" height="50%"></button>
+              </div>
+            </div>
+        </div>
+    </main>  
+    <footer>
+        <div class="footer_block">
+          <div class="about_us">
+            <h3>О НАС</h3>
+            <p>Курсовую работу выполнил студент группы ИКБО-20-21 Алинбеков Айдар</p>
+          </div>
+          <div class="link_foot">
+            <h3>Ссылки</h3>
+            <p>Медиа</p>
+            <p>Избранное</p>
+            <p>Товары</p>
+            <p>Войти</p>
+          </div>
+          <div class="contact">
+            <h3>Контакты</h3>
+            <div class="adres">
+              <div class="icon_in_foot">
+                <img class="photo_soc_seti" src="../locale_foot.png" height="50%">
+              </div>
+              <div class="text_foot">
+              <p>г.Москва</p>
+              <p>ул. 11-я Парковая</p>
+              <p>д. 36 </p>
+              </div>
+            </div>
+            <div class="telefon">
+              <div class="icon_in_foot">
+                <img class="photo_soc_seti" src="../telephone.png" height="50%">
+              </div>
+              <div class="text_foot">
+                <p>Позвонить</p>
+              </div>
+            </div>
+            <div class="pochta">
+              <div class="icon_in_foot">
+                <img class="photo_soc_seti" src="../mail.png" height="50%">
+              </div>
+              <div class="text_foot">
+                <p>Написать на почту</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </footer>
+    <script src="/header.js"></script>
+  </body>
+</html>
